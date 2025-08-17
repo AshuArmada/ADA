@@ -3,6 +3,8 @@
 using namespace std;  
 int main ()  
 {  
+  
+    cout<<"hello ";
     // declaration of the variables and array  
     int arr[100], st, mid, end, i, num, tgt;  
       
@@ -43,7 +45,7 @@ int main ()
             st = mid + 1; // set the new value for st variable  
         }  
           
-        // check the value of target element is less than the mid element' value  
+        // check the value of target element is less than the mid element' 
         else if ( tgt < arr[mid])  
         {  
             end = mid - 1; // set the new value for end variable  
